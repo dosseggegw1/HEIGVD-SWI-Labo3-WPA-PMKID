@@ -68,3 +68,16 @@ Un fork du repo original . Puis, un Pull Request contenant **vos noms** et :
 ## Échéance
 
 Le 06 mai 2021 à 23h59
+
+
+
+-----
+
+## **Rendu**
+
+> Auteurs : Julien Béguin & Gwendoline Dössegger
+>
+> Date : 21.04.2021
+
+
+

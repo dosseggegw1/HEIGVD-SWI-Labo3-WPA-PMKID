@@ -49,8 +49,6 @@ def main():
         if trame.subtype == 0x0 and trame.type == 0x0 and trame.info.decode("ascii") == ssid:
             APmac = a2b_hex(trame.addr1.replace(':', ''))
             Clientmac = a2b_hex(trame.addr2.replace(':', ''))
-            print("AP:",APmac)
-            print("CL:",Clientmac)
             break
 
     #A demande si on peut mettre en "dur" ou boucle précédente.. à voir ce qu'on préfère
@@ -77,11 +75,8 @@ def main():
     passPhrases = [x.strip() for x in wordlist.readlines()]
     wordlist.close()
 
+    print("Target network :", ssid)
     ssid = str.encode(ssid)
-
-    print("SSID  :",ssid)
-    print("APmac :",APmac)
-    print("Clmac :",Clientmac)
 
     # Test chaque passPhrase
     for passPhrase in passPhrases:
