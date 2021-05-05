@@ -77,7 +77,7 @@ def main():
     print("Target network :", ssid)
     ssid = str.encode(ssid)
 
-    # Test chaque passPhrase
+    # Test each passPhrase
     for passPhrase in passPhrases:
         print("[+] Testing passphrase:", passPhrase)
         passPhrase = str.encode(passPhrase)
