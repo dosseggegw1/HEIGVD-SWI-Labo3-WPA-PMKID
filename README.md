@@ -80,7 +80,7 @@ Le 06 mai 2021 à 23h59
 
 
 
-### 1. Obtention de la PMKID et des paramètres pour la dérivation de la PMK & Cracker la Passphrase utilisant l'attaque PMKID
+### 1 & 2. Obtention de la PMKID et des paramètres pour la dérivation de la PMK & Cracker la Passphrase utilisant l'attaque PMKID
 
 Voici les étapes principales de notre script `pmkid_attack.py` :
 

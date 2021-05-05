@@ -51,7 +51,6 @@ def main():
             Clientmac = a2b_hex(trame.addr2.replace(':', ''))
             break
 
-    #A demande si on peut mettre en "dur" ou boucle précédente.. à voir ce qu'on préfère
     # APmac = a2b_hex(wpa[145].addr2.replace(':', ''))
     # Clientmac = a2b_hex(wpa[145].addr1.replace(':', ''))
 
